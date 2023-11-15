@@ -31,6 +31,7 @@ To add a new paper to the repository, follow these steps:
 - [Papers](#papers)
   - [Must-Read](#must-read)
   - [Personalization](#personalization)
+  - [Editing](Editing)
 
 
 # Resources
@@ -174,3 +175,11 @@ Learn to generate and manipulate specific concepts by training word embedding.
 *Nataniel Ruiz, Yuanzhen Li, Varun Jampani, Yael Pritch, Michael Rubinstein, Kfir Aberman* \
 CVPR 2023 [[Paper](https://arxiv.org/abs/2208.12242)] [[Code](https://github.com/google/dreambooth)] [[Project Page](https://dreambooth.github.io/)] \
 Learn to generate and manipulate specific concepts by finetuning the hole model with an additional prior preservation loss.
+
+
+## Editing
+
+**SEGA: Instructing Text-to-Image Models using Semantic Guidance** \
+*Manuel Brack, Felix Friedrich, Dominik Hintersdorf, Lukas Struppek, Patrick Schramowski, Kristian Kersting* \
+Neurips 2023 [[Paper](https://arxiv.org/pdf/2301.12247.pdf)] [[Diffusers](https://huggingface.co/docs/diffusers/api/pipelines/semantic_stable_diffusion)] \
+Extention of CFG for more finegrained prompt2prompt control.
