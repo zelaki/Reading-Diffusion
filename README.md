@@ -29,7 +29,8 @@ To add a new paper to the repository, follow these steps:
   - [Introductory Videos](#introductory-videos)
 
 - [Papers](#papers)
-  - [Must-Read](#must)
+  - [Must-Read](#must-read)
+  - [Personalization](#personalization)
 
 
 # Resources
@@ -156,7 +157,20 @@ Implementation improvements
 NeurIPS Workshop 2021. [[Paper](https://arxiv.org/abs/2207.12598)] \
 Instead of providing guidance from an external classifier (Classifier Guidance), conditions are plugged into the UNet.
 
-**High-Resolution Image Synthesis with Latent Diffusion Models**\
+**High-Resolution Image Synthesis with Latent Diffusion Models** :zap:\
 *Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Björn Ommer* \
 CVPR 2022. [[Paper](https://arxiv.org/abs/2112.10752)] \
 Perform the diffusion process on a latent space instead of the image space.
+
+
+## Personalization
+**An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion** :zap:\
+*Rinon Gal, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit H. Bermano, Gal Chechik, Daniel Cohen-Or* \
+ICLR 2023 Spotlight [[Paper](https://arxiv.org/abs/2208.01618)] [[Code](https://github.com/rinongal/textual_inversion)] [[Project Page](https://textual-inversion.github.io/)] \
+Learn to generate and manipulate specific concepts by training word embedding.
+
+
+**DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation** :zap:\
+*Nataniel Ruiz, Yuanzhen Li, Varun Jampani, Yael Pritch, Michael Rubinstein, Kfir Aberman* \
+CVPR 2023 [[Paper](https://arxiv.org/abs/2208.12242)] [[Code](https://github.com/google/dreambooth)] [[Project Page](https://dreambooth.github.io/)] \
+Learn to generate and manipulate specific concepts by finetuning the hole model with an additional prior preservation loss.
