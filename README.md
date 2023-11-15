@@ -29,7 +29,7 @@ To add a new paper to the repository, follow these steps:
   - [Introductory Videos](#introductory-videos)
 
 - [Papers](#papers)
-  - [Must Read](#must)
+  - [Must-Read](#must)
 
 
 # Resources
@@ -97,3 +97,66 @@ Nice conection to VAE.
 [[Video](https://www.youtube.com/playlist?list=PL5RHjmn-MVHDMcqx-SI53mB7sFOqPK6gN)] \
 A series of videos on Diffusion from DDPM to High-Resolution.
 
+
+
+
+## Must-Read
+
+**Deep Unsupervised Learning using Nonequilibrium Thermodynamics** :zap: \
+*Jascha Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, Surya Ganguli* \
+ICML 2015. [[Paper](https://arxiv.org/abs/1503.03585)] [[Github](https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models)] \
+The first paper. Proposes a method to recover data through reverse diffusion process. Worth reading in order to understand the connection with statistical physics.
+
+**Denoising Diffusion Probabilistic Models** :zap: \
+*Jonathan Ho, Ajay Jain, Pieter Abbeel* \
+NeurIPS 2020. [[Paper](https://arxiv.org/abs/2006.11239)] [[Github](https://github.com/hojonathanho/diffusion)] [[Github2](https://github.com/pesser/pytorch_diffusion)] \
+The comeback. Proposed a method of sampling $x_t$ directly from $x_0$, and simplified the diffusion loss. 
+
+**Improved Denoising Diffusion Probabilistic Models** :zap:\
+*Alex Nichol<sup>1</sup>, Prafulla Dhariwal<sup>1</sup>* \
+ICLR 2021. [[Paper](https://arxiv.org/abs/2102.09672)] [[Github](https://github.com/openai/improved-diffusion)] \
+Main contribution of this paper is a method to learning the variance in the backward process as an interpolation between $\beta_t$ and $\bar{\beta}_t$.
+
+**Variational Diffusion Models** :zap:\
+*Diederik P. Kingma, Tim Salimans, Ben Poole, Jonathan Ho* \
+NeurIPS 2021. [[Paper](https://arxiv.org/abs/2107.00630)] [[Github](https://github.com/revsic/jax-variational-diffwave)] \
+1 Jul 2021 \
+A method to learn the noise schedule by modeling the $SNR=\frac{\mu^2}{\sigma^2}$.
+
+
+**Diffusion Models Beat GANs on Image Synthesis** :zap:\
+*Prafulla Dhariwal<sup>1</sup>, Alex Nichol<sup>1</sup>* \
+arXiv 2021. [[Paper](https://arxiv.org/abs/2105.05233)] [[Github](https://github.com/openai/guided-diffusion)] \
+Proposed Classifier Guidance and other improvments on architecture.
+
+**Denoising Diffusion Implicit Models** :zap: \
+*Jiaming Song, Chenlin Meng, Stefano Ermon* \
+ICLR 2021. [[Paper](https://arxiv.org/abs/2010.02502)] [[Github](https://github.com/ermongroup/ddim)] \
+Brakes the Markov chain constraint and makes the reverse process deterministic. This allows to skip steps and make sampling a lot faster. A bit mathematically complex but is a must read.
+
+**Generative Modeling by Estimating Gradients of the Data Distribution** :zap: \
+*Yang Song, Stefano Ermon* \
+NeurIPS 2019. [[Paper](https://arxiv.org/abs/1907.05600)] [[Project](https://yang-song.github.io/blog/2021/score/)] [[Github](https://github.com/ermongroup/ncsn)] \
+First paper of Score-Based Models.
+
+**Score-Based Generative Modeling through Stochastic Differential Equations** \
+*Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole* \
+ICLR 2021 (Oral). [[Paper](https://arxiv.org/abs/2011.13456)] [[Github](https://github.com/yang-song/score_sde)] \
+A paper that combines DDPM and Score-Based models under an SDE framework.
+
+
+
+**Elucidating the Design Space of Diffusion-Based Generative Models** \
+*Tero Karras, Miika Aittala, Timo Aila, Samuli Laine* \
+arXiv 2022. [[Paper](https://arxiv.org/abs/2206.00364)] \
+Implementation improvements
+
+**Classifier-Free Diffusion Guidance** \
+*Jonathan Ho, Tim Salimans* \
+NeurIPS Workshop 2021. [[Paper](https://arxiv.org/abs/2207.12598)] \
+Instead of providing guidance from an external classifier (Classifier Guidance), conditions are plugged into the UNet.
+
+**High-Resolution Image Synthesis with Latent Diffusion Models**\
+*Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Björn Ommer* \
+CVPR 2022. [[Paper](https://arxiv.org/abs/2112.10752)] \
+Perform the diffusion process on a latent space instead of the image space.
