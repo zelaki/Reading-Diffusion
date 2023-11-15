@@ -5,7 +5,7 @@
 
 This repository contains a collection of papers on ***Diffusion Models***.
 
-It's a simple way for me to keep track of the papers I've read and the ones I want to read.  Every paper will be summarized in a few sentences.
+It's a simple way for me to keep track of the papers I've read and the ones I want to read.  Every paper will be summarized in a few sentences. Read papers are marked with a :zap:
 
 Feel free to browse through the papers and summaries. Happy reading!
 
@@ -35,13 +35,13 @@ To add a new paper to the repository, follow these steps:
 # Resources
 ## Introductory Posts
 
-**What are Diffusion Models?** \
+**What are Diffusion Models?** :zap: \
 *Lilian Weng* \
 [[Website](https://lilianweng.github.io/lil-log/2021/07/11/diffusion-models.html)] \
 11 Jul 2021
 
 
-**DiffusionFastForward: 01-Diffusion-Theory** \
+**DiffusionFastForward: 01-Diffusion-Theory** :zap: \
 *Mikolaj Czerkawski (@mikonvergence)* \
 [[Website](https://github.com/mikonvergence/DiffusionFastForward/blob/master/notes/01-Diffusion-Theory.md)] \
 Feb 2023
