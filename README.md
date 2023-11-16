@@ -181,5 +181,16 @@ Learn to generate and manipulate specific concepts by finetuning the hole model 
 
 **SEGA: Instructing Text-to-Image Models using Semantic Guidance** \
 *Manuel Brack, Felix Friedrich, Dominik Hintersdorf, Lukas Struppek, Patrick Schramowski, Kristian Kersting* \
-Neurips 2023 [[Paper](https://arxiv.org/pdf/2301.12247.pdf)] [[Diffusers](https://huggingface.co/docs/diffusers/api/pipelines/semantic_stable_diffusion)] \
+NeurIPS 2023 [[Paper](https://arxiv.org/pdf/2301.12247.pdf)] [[Diffusers](https://huggingface.co/docs/diffusers/api/pipelines/semantic_stable_diffusion)] \
 Extention of CFG for more finegrained prompt2prompt control.
+
+**A Latent Space of Stochastic Diffusion Models for
+Zero-Shot Image Editing and Guidance** \
+*Chen Henry Wu, Fernando De la Torre* \
+CVPR 2023 [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_A_Latent_Space_of_Stochastic_Diffusion_Models_for_Zero-Shot_Image_ICCV_2023_paper.pdf)] [[Code](https://github.com/humansensinglab/cycle-diffusion)] \
+Definining a Latent Space for Stohastic Diffusion Models.
+
+**Understanding the Latent Space of Diffusion Models through the Lens of Riemannian Geometry** \
+*Yong-Hyun Park, Mingi Kwon, Jaewoong Choi, Junghyo Jo, Youngjung Uh* \
+NeurIPS 2023 [[Paper](https://arxiv.org/abs/2307.12868)] \
+???
