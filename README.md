@@ -194,3 +194,10 @@ Definining a Latent Space for Stohastic Diffusion Models.
 *Yong-Hyun Park, Mingi Kwon, Jaewoong Choi, Junghyo Jo, Youngjung Uh* \
 NeurIPS 2023 [[Paper](https://arxiv.org/abs/2307.12868)] \
 ???
+
+**Zero-shot Image-to-Image Translation** \
+*Gaurav Parmar, Krishna Kumar Singh, Richard Zhang, Yijun Li, Jingwan Lu, Jun-Yan Zhu* \
+SIGGRAPH 2023 [[Paper](https://arxiv.org/abs/2302.03027)] \ 
+???
+
+
