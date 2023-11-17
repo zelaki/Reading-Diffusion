@@ -180,6 +180,15 @@ Learn to generate and manipulate specific concepts by finetuning the hole model 
 
 ## Editing
 
+
+**DIFFUSION MODELS ALREADY HAVE A SEMANTIC LATENT SPACE** :zap:\
+*Mingi Kwon, Jaeseok Jeong, Youngjung Uh* \
+ICLR 2023 Spotlight [[Paper](https://arxiv.org/pdf/2210.10960.pdf)] \ 
+Propose an asymetric reverse process by modifying only the "prediction" term of
+DDIM without affecting the "direction" term. Find that the deepest feature
+maps of the UNet function as a semantic latent space.
+
+
 **SEGA: Instructing Text-to-Image Models using Semantic Guidance** \
 *Manuel Brack, Felix Friedrich, Dominik Hintersdorf, Lukas Struppek, Patrick Schramowski, Kristian Kersting* \
 NeurIPS 2023 [[Paper](https://arxiv.org/pdf/2301.12247.pdf)] [[Diffusers](https://huggingface.co/docs/diffusers/api/pipelines/semantic_stable_diffusion)] \
