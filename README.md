@@ -183,10 +183,17 @@ Learn to generate and manipulate specific concepts by finetuning the hole model 
 
 **DIFFUSION MODELS ALREADY HAVE A SEMANTIC LATENT SPACE** :zap:\
 *Mingi Kwon, Jaeseok Jeong, Youngjung Uh* \
-ICLR 2023 Spotlight [[Paper](https://arxiv.org/pdf/2210.10960.pdf)] \ 
+ICLR 2023 Spotlight [[Paper](https://arxiv.org/pdf/2210.10960.pdf)]  \
+
 Propose an asymetric reverse process by modifying only the "prediction" term of
 DDIM without affecting the "direction" term. Find that the deepest feature
 maps of the UNet function as a semantic latent space.
+
+
+**Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation** :zap: \
+*Narek Tumanyan Michal Geyer Shai Bagon Tali Dekel* \
+CVPR 2023 [[Paper](https://arxiv.org/pdf/2211.12572.pdf)] \
+Text driven image to image translation. Save the feature maps of the 4th layer and the self-attention from the 4th-11th layers from the denoising steps of the source image. Then during the generation of the target image they inject the self attention and the feature maps from the source. This way they maintain the stracture and layout.
 
 
 **SEGA: Instructing Text-to-Image Models using Semantic Guidance** \
@@ -207,7 +214,7 @@ NeurIPS 2023 [[Paper](https://arxiv.org/abs/2307.12868)] \
 
 **Zero-shot Image-to-Image Translation** \
 *Gaurav Parmar, Krishna Kumar Singh, Richard Zhang, Yijun Li, Jingwan Lu, Jun-Yan Zhu* \
-SIGGRAPH 2023 [[Paper](https://arxiv.org/abs/2302.03027)] \ 
+SIGGRAPH 2023 [[Paper](https://arxiv.org/abs/2302.03027)] \
 ???
 
 
