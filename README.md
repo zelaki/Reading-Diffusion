@@ -6,7 +6,7 @@
 
 This repository contains a collection of papers on ***Diffusion Models***.
 
-It's a simple way for me to keep track of the papers I've read and the ones I want to read.  Every paper will be summarized in a few sentences. Read papers are marked with a :zap:
+It's a simple way for me to keep track of the papers I've read and the ones I want to read.  Every paper will be summarized in a few sentences. Read papers are marked with a :zap:.
 
 Feel free to browse through the papers and summaries. Happy reading!
 
@@ -33,6 +33,7 @@ To add a new paper to the repository, follow these steps:
   - [Must-Read](#must-read)
   - [Personalization](#personalization)
   - [Editing](Editing)
+  - [Inversion](Inversion)
 
 
 # Resources
@@ -218,3 +219,12 @@ SIGGRAPH 2023 [[Paper](https://arxiv.org/abs/2302.03027)] \
 ???
 
 
+
+
+## Inversion
+
+
+**DIRECT INVERSION: BOOSTING DIFFUSION-BASED EDITING WITH 3 LINES OF CODE** \
+*Xuan Ju, Ailing Zeng, Yuxuan Bian, Shaoteng Liu, Qiang Xu* \
+[[paper](https://arxiv.org/abs/2310.01506)] [[Code](https://github.com/cure-lab/DirectInversion)] \
+???
