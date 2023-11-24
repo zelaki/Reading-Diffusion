@@ -228,3 +228,12 @@ SIGGRAPH 2023 [[Paper](https://arxiv.org/abs/2302.03027)] \
 *Xuan Ju, Ailing Zeng, Yuxuan Bian, Shaoteng Liu, Qiang Xu* \
 [[paper](https://arxiv.org/abs/2310.01506)] [[Code](https://github.com/cure-lab/DirectInversion)] \
 ???
+
+
+**Null-text Inversion for Editing Real Images using Guided Diffusion Models**
+:zap: \
+*Ron Mokady, Amir Hertz, Kfir Aberman, Yael Pritch, Daniel Cohen-Or* \
+[[paper](https://arxiv.org/abs/2211.09794)] \
+Improve DDIM inversion with CFG > 1 by pushing the tranjectory towards a pivot
+obtained with CFG = 1. Also optimize a null text embedding that can be used for
+editing like prompt2prompt. 
