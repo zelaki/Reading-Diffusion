@@ -197,13 +197,24 @@ CVPR 2023 [[Paper](https://arxiv.org/pdf/2211.12572.pdf)] \
 Text driven image to image translation. Save the feature maps of the 4th layer and the self-attention from the 4th-11th layers from the denoising steps of the source image. Then during the generation of the target image they inject the self attention and the feature maps from the source. This way they maintain the stracture and layout.
 
 
-**SEGA: Instructing Text-to-Image Models using Semantic Guidance** \
+
+
+
+
+**SEGA: Instructing Text-to-Image Models using Semantic Guidance** :zap: \
 *Manuel Brack, Felix Friedrich, Dominik Hintersdorf, Lukas Struppek, Patrick Schramowski, Kristian Kersting* \
 NeurIPS 2023 [[Paper](https://arxiv.org/pdf/2301.12247.pdf)] [[Diffusers](https://huggingface.co/docs/diffusers/api/pipelines/semantic_stable_diffusion)] \
 Extention of CFG for more finegrained prompt2prompt control.
 
-**A Latent Space of Stochastic Diffusion Models for
-Zero-Shot Image Editing and Guidance** \
+
+
+**Discovering Interpretable Directions in the Semantic Latent Space of Diffusion Models** \ 
+*René Haas, Inbar Huberman-Spiegelglas, Rotem Mulayoff, Tomer Michaeli* \
+[[Paper](https://arxiv.org/abs/2303.11073)] \
+!!!! README !!!!
+
+
+**A Latent Space of Stochastic Diffusion Models for Zero-Shot Image Editing and Guidance** \
 *Chen Henry Wu, Fernando De la Torre* \
 CVPR 2023 [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_A_Latent_Space_of_Stochastic_Diffusion_Models_for_Zero-Shot_Image_ICCV_2023_paper.pdf)] [[Code](https://github.com/humansensinglab/cycle-diffusion)] \
 Definining a Latent Space for Stohastic Diffusion Models.
@@ -240,7 +251,6 @@ editing like prompt2prompt.
 *Inbar Huberman-Spiegelglas, Vladimir Kulikov, Tomer Michaeli* \
 [[Paper](https://arxiv.org/abs/2304.06140)] [[Code](https://github.com/inbarhub/DDPM_inversion)] \
 ???
-
 
 
 
