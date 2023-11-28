@@ -223,17 +223,24 @@ SIGGRAPH 2023 [[Paper](https://arxiv.org/abs/2302.03027)] \
 
 ## Inversion
 
-
-**DIRECT INVERSION: BOOSTING DIFFUSION-BASED EDITING WITH 3 LINES OF CODE** \
-*Xuan Ju, Ailing Zeng, Yuxuan Bian, Shaoteng Liu, Qiang Xu* \
-[[paper](https://arxiv.org/abs/2310.01506)] [[Code](https://github.com/cure-lab/DirectInversion)] \
-???
-
-
-**Null-text Inversion for Editing Real Images using Guided Diffusion Models**
-:zap: \
-*Ron Mokady, Amir Hertz, Kfir Aberman, Yael Pritch, Daniel Cohen-Or* \
-[[paper](https://arxiv.org/abs/2211.09794)] \
+***Null-text Inversion for Editing Real Images using Guided Diffusion Models**
+[:zap: \
+?*Ron Mokady, Amir Hertz, Kfir Aberman, Yael Pritch, Daniel Cohen-Or* \
+ [[paper](https://arxiv.org/abs/2211.09794)] \
 Improve DDIM inversion with CFG > 1 by pushing the tranjectory towards a pivot
 obtained with CFG = 1. Also optimize a null text embedding that can be used for
 editing like prompt2prompt. 
+
+
+**DIRECT INVERSION: BOOSTING DIFFUSION-BASED EDITING WITH 3 LINES OF CODE** \
+*Xuan Ju, Ailing Zeng, Yuxuan Bian, Shaoteng Liu, Qiang Xu* \
+[[Paper](https://arxiv.org/abs/2310.01506)] [[Code](https://github.com/cure-lab/DirectInversion)] \
+???
+
+**An Edit Friendly DDPM Noise Space: Inversion and Manipulations** \ 
+*Inbar Huberman-Spiegelglas, Vladimir Kulikov, Tomer Michaeli*
+[[Paper](https://arxiv.org/abs/2304.06140)] [[Code](https://github.com/inbarhub/DDPM_inversion)] \
+???
+
+
+
