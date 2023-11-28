@@ -201,6 +201,7 @@ Text driven image to image translation. Save the feature maps of the 4th layer a
 
 
 
+
 **SEGA: Instructing Text-to-Image Models using Semantic Guidance** :zap: \
 *Manuel Brack, Felix Friedrich, Dominik Hintersdorf, Lukas Struppek, Patrick Schramowski, Kristian Kersting* \
 NeurIPS 2023 [[Paper](https://arxiv.org/pdf/2301.12247.pdf)] [[Diffusers](https://huggingface.co/docs/diffusers/api/pipelines/semantic_stable_diffusion)] \
@@ -208,7 +209,7 @@ Extention of CFG for more finegrained prompt2prompt control.
 
 
 
-**Discovering Interpretable Directions in the Semantic Latent Space of Diffusion Models** \ 
+**Discovering Interpretable Directions in the Semantic Latent Space of Diffusion Models** \
 *René Haas, Inbar Huberman-Spiegelglas, Rotem Mulayoff, Tomer Michaeli* \
 [[Paper](https://arxiv.org/abs/2303.11073)] \
 !!!! README !!!!
