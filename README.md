@@ -182,7 +182,7 @@ Learn to generate and manipulate specific concepts by finetuning the hole model 
 ## Editing
 
 
-**DIFFUSION MODELS ALREADY HAVE A SEMANTIC LATENT SPACE** :zap:\
+**DIFFUSION MODELS ALREADY HAVE A SEMANTIC LATENT SPACE** :zap: \
 *Mingi Kwon, Jaeseok Jeong, Youngjung Uh* \
 ICLR 2023 Spotlight [[Paper](https://arxiv.org/pdf/2210.10960.pdf)]  \
 
@@ -228,6 +228,13 @@ NeurIPS 2023 [[Paper](https://arxiv.org/abs/2307.12868)] \
 **Zero-shot Image-to-Image Translation** \
 *Gaurav Parmar, Krishna Kumar Singh, Richard Zhang, Yijun Li, Jingwan Lu, Jun-Yan Zhu* \
 SIGGRAPH 2023 [[Paper](https://arxiv.org/abs/2302.03027)] \
+???
+
+
+
+**Unsupervised Discovery of Interpretable Directions in h-space of Pre-trained Diffusion Models** \
+*Zijian Zhang, Luping Liu. Zhijie Lin, Yichen Zhu, Zhou Zhao* \
+[[Paper](https://arxiv.org/abs/2310.09912)] \
 ???
 
 
