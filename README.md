@@ -239,10 +239,7 @@ SIGGRAPH 2023 [[Paper](https://arxiv.org/abs/2302.03027)] \
 ???
 
 
-**In-Context Learning Unlocked for Diffusion Models** \
-*Zhendong Wang, Yifan Jiang, Yadong Lu, Yelong Shen, Pengcheng He, Weizhu Chen, Zhangyang Wang, Mingyuan Zhou* \
-NeurIPS 2023 [[Paper](https://arxiv.org/abs/2305.01115)]
-???
+
 
 ## Inversion
 
@@ -274,3 +271,9 @@ make optical illusions.
 A pretrained diffusion model is used estimate the noise in different views or transformations of an image. The noise estimates are then aligned by applying the inverse view and averaged together. This averaged noise estimate is then used to take a diffusion step. 
 
 
+## Other
+
+**In-Context Learning Unlocked for Diffusion Models** \
+*Zhendong Wang, Yifan Jiang, Yadong Lu, Yelong Shen, Pengcheng He, Weizhu Chen, Zhangyang Wang, Mingyuan Zhou* \
+NeurIPS 2023 [[Paper](https://arxiv.org/abs/2305.01115)] \
+???
