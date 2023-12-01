@@ -34,6 +34,7 @@ To add a new paper to the repository, follow these steps:
   - [Personalization](#personalization)
   - [Editing](Editing)
   - [Inversion](Inversion)
+  - [Art](Art)
 
 
 # Resources
@@ -238,7 +239,10 @@ SIGGRAPH 2023 [[Paper](https://arxiv.org/abs/2302.03027)] \
 ???
 
 
-
+**In-Context Learning Unlocked for Diffusion Models** \
+*Zhendong Wang, Yifan Jiang, Yadong Lu, Yelong Shen, Pengcheng He, Weizhu Chen, Zhangyang Wang, Mingyuan Zhou* \
+NeurIPS 2023 [[Paper](https://arxiv.org/abs/2305.01115)]
+???
 
 ## Inversion
 
@@ -260,6 +264,13 @@ editing like prompt2prompt.
 [[Paper](https://arxiv.org/abs/2304.06140)] [[Code](https://github.com/inbarhub/DDPM_inversion)] \
 ???
 
+## Art
 
+**Visual Anagrams: Generating Multi-View Optical Illusions with Diffusion Models** :zap: \
+*Daniel Geng, Inbum Park, Andrew Owens* \
+[[Page](https://dangeng.github.io/visual_anagrams/)][[Paper](https://arxiv.org/pdf/2311.17919.pdf)] [[Code](https://github.com/dangeng/visual_anagrams)] \
+Diffusion models
+make optical illusions.
+A pretrained diffusion model is used estimate the noise in different views or transformations of an image. The noise estimates are then aligned by applying the inverse view and averaged together. This averaged noise estimate is then used to take a diffusion step. 
 
 
