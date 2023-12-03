@@ -239,6 +239,15 @@ SIGGRAPH 2023 [[Paper](https://arxiv.org/abs/2302.03027)] \
 ???
 
 
+**DeltaSpace: A Semantic-aligned Feature Space for Flexible Text-guided Image Editing** \
+*Yueming Lyu, Kang Zhao, Bo Peng, Yue Jiang, Yingya Zhang, Jing Dong* \
+[[Paper](https://arxiv.org/abs/2310.08785)] [[Code](https://github.com/Yueming6568/DeltaEdit)] \ 
+???
+
+**Concept Sliders: LoRA Adaptors for Precise Control in Diffusion Models** \
+*Rohit Gandikota, Joanna Materzynska, Tingrui Zhou, Antonio Torralba, David Bau* \
+[[Paper](https://arxiv.org/pdf/2311.12092.pdf)] [[Code](https://sliders.baulab.info/)] \
+???
 
 
 ## Inversion
@@ -259,12 +268,6 @@ editing like prompt2prompt.
 **An Edit Friendly DDPM Noise Space: Inversion and Manipulations** \ 
 *Inbar Huberman-Spiegelglas, Vladimir Kulikov, Tomer Michaeli* \
 [[Paper](https://arxiv.org/abs/2304.06140)] [[Code](https://github.com/inbarhub/DDPM_inversion)] \
-???
-
-
-**DeltaSpace: A Semantic-aligned Feature Space for Flexible Text-guided Image Editing** \
-*Yueming Lyu, Kang Zhao, Bo Peng, Yue Jiang, Yingya Zhang, Jing Dong* \
-[[Paper](https://arxiv.org/abs/2310.08785)] [[Code](https://github.com/Yueming6568/DeltaEdit)] \ 
 ???
 
 
