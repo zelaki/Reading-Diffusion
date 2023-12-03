@@ -261,6 +261,13 @@ editing like prompt2prompt.
 [[Paper](https://arxiv.org/abs/2304.06140)] [[Code](https://github.com/inbarhub/DDPM_inversion)] \
 ???
 
+
+**DeltaSpace: A Semantic-aligned Feature Space for Flexible Text-guided Image Editing** \
+*Yueming Lyu, Kang Zhao, Bo Peng, Yue Jiang, Yingya Zhang, Jing Dong* \
+[[Paper](https://arxiv.org/abs/2310.08785)] [[Code](https://github.com/Yueming6568/DeltaEdit)] \ 
+???
+
+
 ## Art
 
 **Visual Anagrams: Generating Multi-View Optical Illusions with Diffusion Models** :zap: \
