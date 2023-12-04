@@ -31,12 +31,14 @@ To add a new paper to the repository, follow these steps:
 
 - [Papers](#papers)
   - [Must-Read](#must-read)
-  - [Personalization](#personalization)
-  - [Editing](Editing)
-  - [Inversion](Inversion)
-  - [Video](Video)
-  - [Art](Art)
-  - [Other](Other)
+  - [Image](Image)
+    - [Personalization](#personalization)
+    - [Editing](Editing)
+    - [Inversion](Inversion)
+    - [Video](Video)
+    - [Art](Art)
+    - [Other](Other)
+  - [Geometric](Geometric)
 
 # Resources
 ## Introductory Posts
@@ -281,6 +283,11 @@ editing like prompt2prompt.
 ???
 
 
+
+
+
+
+
 ## Art
 
 **Visual Anagrams: Generating Multi-View Optical Illusions with Diffusion Models** :zap: \
@@ -305,3 +312,10 @@ CVPR 2023 [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Blattmann
 *Zhendong Wang, Yifan Jiang, Yadong Lu, Yelong Shen, Pengcheng He, Weizhu Chen, Zhangyang Wang, Mingyuan Zhou* \
 NeurIPS 2023 [[Paper](https://arxiv.org/abs/2305.01115)] \
 ???
+
+
+
+## Geometric
+**Geometric Latent Diffusion Models for 3D Molecule Generation** \
+*Minkai Xu, Alexander S. Powers, Ron O. Dror, Stefano Ermon, Jure Leskovec*
+NeurIPS 2023 [[Paper](https://proceedings.mlr.press/v202/xu23n/xu23n.pdf)]
