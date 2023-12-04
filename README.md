@@ -217,6 +217,15 @@ Extention of CFG for more finegrained prompt2prompt control.
 !!!! README !!!!
 
 
+
+**Self-Discovering Interpretable Diffusion Latent Directions for Responsible Text-to-Image Generation** \
+*Hang Li, Chengzhi Shen, Philip Torr, Volker Tresp, Jindong Gu* \
+[[Paper](https://arxiv.org/abs/2311.17216)] \
+Add an learnable vector to h-space. This vector is assosiated with an attribut of intrest (e.g. smile).
+
+
+
+
 **A Latent Space of Stochastic Diffusion Models for Zero-Shot Image Editing and Guidance** \
 *Chen Henry Wu, Fernando De la Torre* \
 CVPR 2023 [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_A_Latent_Space_of_Stochastic_Diffusion_Models_for_Zero-Shot_Image_ICCV_2023_paper.pdf)] [[Code](https://github.com/humansensinglab/cycle-diffusion)] \
