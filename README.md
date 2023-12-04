@@ -34,8 +34,9 @@ To add a new paper to the repository, follow these steps:
   - [Personalization](#personalization)
   - [Editing](Editing)
   - [Inversion](Inversion)
+  - [Video](Video)
   - [Art](Art)
-
+  - [Other](Other)
 
 # Resources
 ## Introductory Posts
@@ -279,6 +280,14 @@ editing like prompt2prompt.
 Diffusion models
 make optical illusions.
 A pretrained diffusion model is used estimate the noise in different views or transformations of an image. The noise estimates are then aligned by applying the inverse view and averaged together. This averaged noise estimate is then used to take a diffusion step. 
+
+
+
+## Video
+
+**Align Your Latents: High-Resolution Video Synthesis With Latent Diffusion Models** \
+*Andreas Blattmann, Robin Rombach, Huan Ling, Tim Dockhorn, Seung Wook Kim, Sanja Fidler* \
+CVPR 2023 [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Blattmann_Align_Your_Latents_High-Resolution_Video_Synthesis_With_Latent_Diffusion_Models_CVPR_2023_paper.html)] \
 
 
 ## Other
