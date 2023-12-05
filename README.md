@@ -216,8 +216,7 @@ Extention of CFG for more finegrained prompt2prompt control.
 **Discovering Interpretable Directions in the Semantic Latent Space of Diffusion Models** \
 *René Haas, Inbar Huberman-Spiegelglas, Rotem Mulayoff, Tomer Michaeli* \
 [[Paper](https://arxiv.org/abs/2303.11073)] \
-!!!! README !!!!
-
+PCA on h-space (like in GANSpace papar) can provide interpretable directions. Further directions for a specific sample can be found by geting the self singular values of the SVD of Jicobian $J_t = \frac{\partial e_\theta}{h_t}$
 
 
 **Self-Discovering Interpretable Diffusion Latent Directions for Responsible Text-to-Image Generation** \
