@@ -213,16 +213,16 @@ Extention of CFG for more finegrained prompt2prompt control.
 
 
 
-**Discovering Interpretable Directions in the Semantic Latent Space of Diffusion Models** \
+**Discovering Interpretable Directions in the Semantic Latent Space of Diffusion Models** :zap: \
 *René Haas, Inbar Huberman-Spiegelglas, Rotem Mulayoff, Tomer Michaeli* \
 [[Paper](https://arxiv.org/abs/2303.11073)] \
-PCA on h-space (like in GANSpace papar) can provide interpretable directions. Further directions for a specific sample can be found by geting the self singular values of the SVD of Jicobian $J_t = \frac{\partial e_\theta}{h_t}$
+PCA on h-space (like in GANSpace papar) can provide interpretable directions. Further directions for a specific sample can be found by geting the right singular values of the SVD of Jicobian $J_t = \frac{\partial e_\theta}{h_t}$
 
 
-**Self-Discovering Interpretable Diffusion Latent Directions for Responsible Text-to-Image Generation** \
+**Self-Discovering Interpretable Diffusion Latent Directions for Responsible Text-to-Image Generation** :zap: \
 *Hang Li, Chengzhi Shen, Philip Torr, Volker Tresp, Jindong Gu* \
 [[Paper](https://arxiv.org/abs/2311.17216)] \
-Add an learnable vector to h-space. This vector is assosiated with an attribut of intrest (e.g. smile).
+Add a learnable vector to h-space. This vector is assosiated with an attribute of intrest (e.g. smile).
 
 
 
@@ -232,10 +232,10 @@ Add an learnable vector to h-space. This vector is assosiated with an attribut o
 CVPR 2023 [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_A_Latent_Space_of_Stochastic_Diffusion_Models_for_Zero-Shot_Image_ICCV_2023_paper.pdf)] [[Code](https://github.com/humansensinglab/cycle-diffusion)] \
 Definining a Latent Space for Stohastic Diffusion Models.
 
-**Understanding the Latent Space of Diffusion Models through the Lens of Riemannian Geometry** \
+**Understanding the Latent Space of Diffusion Models through the Lens of Riemannian Geometry** :zap: \
 *Yong-Hyun Park, Mingi Kwon, Jaewoong Choi, Junghyo Jo, Youngjung Uh* \
 NeurIPS 2023 [[Paper](https://arxiv.org/abs/2307.12868)] \
-???
+Since h-space exibits local linearity and since there is a mapping $f:\mathcal{X} \rightarrow \mathcal{H}$ the pullback metric can be used to define a mapping back to $\mathcal{X}$. Then intrperetable directions in $\mathcal{X}$ can be found through SVD in $\mathcal{H}$. 
 
 **Zero-shot Image-to-Image Translation** \
 *Gaurav Parmar, Krishna Kumar Singh, Richard Zhang, Yijun Li, Jingwan Lu, Jun-Yan Zhu* \
