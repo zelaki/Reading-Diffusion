@@ -317,3 +317,21 @@ NeurIPS 2023 [[Paper](https://arxiv.org/abs/2305.01115)] \
 **Geometric Latent Diffusion Models for 3D Molecule Generation** \
 *Minkai Xu, Alexander S. Powers, Ron O. Dror, Stefano Ermon, Jure Leskovec*
 NeurIPS 2023 [[Paper](https://proceedings.mlr.press/v202/xu23n/xu23n.pdf)]
+
+
+
+
+## Riemannian Geometry
+
+**Understanding the Latent Space of Diffusion Models through the Lens of Riemannian Geometry** :zap: \
+*Yong-Hyun Park, Mingi Kwon, Jaewoong Choi, Junghyo Jo, Youngjung Uh* \
+NeurIPS 2023 [[Paper](https://arxiv.org/abs/2307.12868)] \
+Since h-space exibits local linearity and since there is a mapping $f:\mathcal{X} \rightarrow \mathcal{H}$ the pullback metric can be used to define a mapping back to $\mathcal{X}$. Then intrperetable directions in $\mathcal{X}$ can be found through SVD in $\mathcal{H}$. 
+
+
+
+**The Riemannian Geometry of Deep Generative Models** \
+*Hang Shao, Abhishek Kumar, P. Thomas Fletcher* :zap: \
+CVPR 2018 [[Paper](https://arxiv.org/abs/1711.08014)] [[Code](https://github.com/shagunuppal/Riemannian_Geometry_of_Deep_Generative_Models)] \
+Investigate the geomtry of latent and data space of VAE. (1) Costruct three algorithms. Geodeisc paths in image data space allowing interpolation. (2) Parallel transport from a sample to another. (3) Geodesic shooting, a way to create analogies like "$\alpha$ is for $\beta$ what is $\gamma$ is to $\mathcal{x}$" while remaining tnagent to the data manifold.
+  
