@@ -334,4 +334,8 @@ Since h-space exibits local linearity and since there is a mapping $f:\mathcal{X
 *Hang Shao, Abhishek Kumar, P. Thomas Fletcher* :zap: \
 CVPR 2018 [[Paper](https://arxiv.org/abs/1711.08014)] [[Code](https://github.com/shagunuppal/Riemannian_Geometry_of_Deep_Generative_Models)] \
 Investigate the geomtry of latent and data space of VAE. (1) Costruct three algorithms. Geodeisc paths in image data space allowing interpolation. (2) Parallel transport from a sample to another. (3) Geodesic shooting, a way to create analogies like "$\alpha$ is for $\beta$ what is $\gamma$ is to $\mathcal{x}$" while remaining tnagent to the data manifold.
-  
+
+
+**Unpaired Image-to-Image Translation with Shortest Path Regularization** \ 
+*Shaoan Xie, Yanwu Xu, Mingming Gong, Kun Zhang* \
+CVPR 2023 [[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_Unpaired_Image-to-Image_Translation_With_Shortest_Path_Regularization_CVPR_2023_paper.pdf)] [[Code] (https://github.com/Mid-Push/santa)] \ 
